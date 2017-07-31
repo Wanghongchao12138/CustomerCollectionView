@@ -12,6 +12,7 @@
     设置collection 的头视图的size
  */
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(WHCWaterfallFlowLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section;
+
 /*
     设置collection footer 视图的size
 */
