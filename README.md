@@ -17,7 +17,9 @@
     设置collection footer 视图的size
 */
  - (CGSize)collectionView:(UICollectionView *)collectionView layout:(WHCWaterfallFlowLayout*)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section;
-
+ 
+   -- colCount --        设置CollectionView 的cell 的列数
+   -- sectionInset --    设置cell 的间距
  
 
 
