@@ -4,7 +4,7 @@
 ![image](https://github.com/Wanghongchao12138/CustomerCollectionView/blob/master/6pssss.gif)   
  
  /*
-    item heigh 设置cell  的宽高
+    设置cell  的宽高
 */
  - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(WHCWaterfallFlowLayout*)collectionViewLayout heightForWidth:(CGFloat)width atIndexPath:(NSIndexPath*)indexPath;
 
@@ -13,7 +13,7 @@
  */
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(WHCWaterfallFlowLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section;
 /*
-    section footer 设置collection footer 视图的size
+    设置collection footer 视图的size
 */
  - (CGSize)collectionView:(UICollectionView *)collectionView layout:(WHCWaterfallFlowLayout*)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section;
 
